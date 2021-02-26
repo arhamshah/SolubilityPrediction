@@ -55,7 +55,7 @@ conda activate ml-project
 ```sh
 pip install -r requirements.txt
 ``` 
-For installation of rdkit refer [here]().
+For installation of rdkit refer [here](https://www.rdkit.org/docs/Install.html).
 
 ## Usage
 Checkout [Video Tutorial]()
@@ -75,6 +75,6 @@ Checkout research paper by Delaney [here](https://pubmed.ncbi.nlm.nih.gov/151547
 - Calculated accuracy is about 93.35%.  
 
 ## Thanks
-- Delaney for providing insight from [research-paper]().
+- Delaney for providing insight from [research-paper](https://pubmed.ncbi.nlm.nih.gov/15154768/).
 - [Data Professor](https://github.com/dataprofessor) for helping me build this project.
 - Shoutout to developers & contributors of Pillow, Pip, Pycaret, Rdkit.
