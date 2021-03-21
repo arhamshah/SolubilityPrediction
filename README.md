@@ -55,6 +55,7 @@ conda activate ml-project
 ```sh
 pip install -r requirements.txt
 ``` 
+#### 4. Install Rdkit
 For installation of rdkit refer [here](https://www.rdkit.org/docs/Install.html).
 
 ## Usage
