@@ -1,0 +1,15 @@
+name: water_sol_pred
+channels:
+  - defaults
+  - rdkit
+dependencies:
+  - numpy=1.19.2
+  - pandas=1.2.3
+  - pip=21.0.1
+  - python=3.7.10
+  - rdkit=2020.03.3.0
+  - pip:
+    - streamlit==0.71.0
+    - Pillow==8.0.1
+    - pycaret==2.2.3
+    - scikit-plot==0.3.7
