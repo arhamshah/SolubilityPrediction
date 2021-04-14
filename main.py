@@ -1,9 +1,10 @@
-from pycaret.regression import *
+from pycaret.regression import load_model
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 from rdkit.Chem import Lipinski
 from rdkit.Chem import Crippen
 import numpy as np
+import pandas as pd
 import streamlit as st
 import PIL.Image
 
