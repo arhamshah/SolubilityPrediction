@@ -2,10 +2,14 @@ import sys
 sys.path.append('/usr/local/lib/python3.7/site-packages/')
 
 from pycaret.regression import load_model
-from rdkit import Chem
-from rdkit.Chem import Descriptors
-from rdkit.Chem import Lipinski
-from rdkit.Chem import Crippen
+try:
+    from rdkit import Chem
+    from rdkit.Chem import Descriptors
+    from rdkit.Chem import Lipinski
+    from rdkit.Chem import Crippen
+except ImportError:
+    print('Run Again')
+    exit()
 import numpy as np
 import pandas as pd
 import streamlit as st
