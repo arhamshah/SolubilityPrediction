@@ -1,3 +1,6 @@
+import sys
+sys.path.append('/usr/local/lib/python3.7/site-packages/')
+
 from pycaret.regression import load_model
 from rdkit import Chem
 from rdkit.Chem import Descriptors
